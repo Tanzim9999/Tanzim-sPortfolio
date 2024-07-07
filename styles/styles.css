@@ -16,7 +16,7 @@
 .orange1 {
   color: #fd6e0a;
 }
-.bold{
+.bold {
   font-weight: bold;
 }
 
@@ -68,7 +68,7 @@ nav ul {
   /* height: 674px; */
 }
 /* .bannertexts { */
-  /* height: 356px;
+/* height: 356px;
   width: 585px; */
 /* } */
 .bannergreet {
@@ -108,22 +108,210 @@ header div div button {
   margin-top: 130px;
 }
 
-.about{
+.about {
   max-width: 1140px;
   margin: 0 auto;
 }
-.about-title{
+.about-title {
   font-size: 35px;
   font-weight: bold;
   text-align: center;
 }
-.about-para{
+.about-para {
   font-size: 18px;
   text-align: center;
 }
-.about-items{
+.about-items {
   display: flex;
   justify-content: space-around;
   gap: 50px;
   text-align: center;
+}
+
+/* ...... skills text section start here */
+
+.skills-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  /* border: #181818 solid; */
+  margin: 130px 600px 50px 600px;
+  /* width: 909px; */
+}
+
+.skillstitle {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.skillstext {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+/* skills icons and texts starts here */
+.skills-icon-container {
+  display: flex;
+  /* border: #fd6e0a solid; */
+  margin: 0px 500px;
+  justify-content: space-around;
+  gap: 24px;
+  /* align-items: center;
+  align-content: center; */
+}
+.skill1 {
+  box-shadow: 0px 6px 56px 0px rgba(0, 0, 0, 0.06);
+  padding: 30px 30px 30px 30px;
+}
+.skill2 {
+  box-shadow: 0px 6px 56px 0px rgba(0, 0, 0, 0.06);
+  padding: 30px 30px 30px 30px;
+}
+.skill3 {
+  box-shadow: 0px 6px 56px 0px rgba(0, 0, 0, 0.06);
+  padding: 30px 30px 30px 30px;
+}
+.skill4 {
+  box-shadow: 0px 6px 56px 0px rgba(0, 0, 0, 0.06);
+  padding: 30px 30px 30px 30px;
+}
+
+.skills-icon-container p {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.skills-icon-container h3 {
+  color: #181818;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* ...... summary of resume begins here  */
+
+.summary-toptext {
+  /* border: #181818 solid; */
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+/* ...... resume columns begins */
+.resume {
+  display: flex;
+  /* border: #181818 solid; */
+  margin: 113px 450px 50px 450px;
+  gap: 30px;
+  
+}
+
+.resume h2 {
+  color: #474747;
+  font-size: 30px;
+font-weight: 700;
+}
+.resume h3{
+  color: #474747;
+  font-size: 25px;
+font-weight: 700;
+}
+
+.resume h4{
+  color:#757575;
+  font-size: 20px;
+font-weight: 600;
+}
+
+.resume p{
+  color: #757575;
+  font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+}
+
+.button-summary {
+  display: flex;
+/* border: #181818 solid; */
+justify-content: center;
+margin-bottom: 113px;
+}
+/* contactus container starts */
+
+.contactus-container {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  height: 780px;
+  background-color: rgb(255, 248, 243);
+}
+.inside-container {
+  display: flex;
+  /* border: #ff0000 solid; */
+justify-content: center;
+gap: 100px;
+height: 500px;
+
+}
+.contact1 {
+  margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+  /* border: #fd6e0a solid; */
+  /* padding: auto 300px auto 230px; */
+  /* margin: 130px 800px auto 230px; */
+}
+
+.contact1 h2 {
+  font-size: 35px;
+font-weight: 700;
+color: #181818;
+}
+.contact2 h2 {
+  font-size: 35px;
+font-weight: 700;
+color: #181818;
+}
+
+.contact1 p {
+  font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+color: #757575;
+}
+.icon-box {
+  display: flex;
+  gap: 25px;
+}
+
+.contact2 {
+  display: flex;
+  margin-top: 130px;
+  flex-direction: column;
+  /* border: #181818 solid; */
+
+}
+
+.contact2 input {
+  display: block;
+  width: 461px;
+height: 64px;
+border-radius: 5px;
+margin-bottom: 24px;
+font-size: 16px;
+font-weight: 400;
+background-color: white;
+}
+.contact2 textarea {
+  font-size: 16px;
+font-weight: 400;
+  width: 461px;
+  height: 180px;
+}
+
+.lastbutton {
+  display: block;
+  margin-top: 24px;
 }
